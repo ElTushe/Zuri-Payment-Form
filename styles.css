@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url('image1.jpg') rgba(1, 46, 38, 0.959) no-repeat center center scroll;
+    background-size: cover;
+    background-blend-mode: multiply;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+div h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+form h4 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+form .input-group {
+    text-align: center;
+} 
+
+div .input-box {
+    padding-top: 20px;
+}
+
+input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.icon {
+    color: rgb(255, 0, 0);
+}
+
+.fa-envelope {
+    color: rgb(128, 128, 128);
+}
+
+.name {
+    width: 20vw;
+}
+
+@media only screen and (max-width:768px) {
+    .name {
+        width: 45vw;
+    }
+}
+
+.input-box h4 {
+    padding-bottom: 10px;
+}
+
+.dob {
+    width: 5vw;
+}
+
+@media only screen and (max-width:768px) {
+    .dob {
+        width: 10vw;
+    }
+}
+
+button {
+    width: 10vw;
+    background-color: rgb(0, 255, 255);
+}
+
+@media only screen and (max-width:768px) {
+    button {
+        width: 20vw;
+    }
+}
